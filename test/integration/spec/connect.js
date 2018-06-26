@@ -757,7 +757,7 @@ describe('connect', function() {
     });
   });
 
-  (isChrome ? describe : describe.skip)('VP8 simulcast', () => {
+  (describe.skip)('VP8 simulcast', () => {
     let peerConnections;
     let thisRoom;
     let thoseRooms;
